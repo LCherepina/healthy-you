@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="ProjectTasksOptions" suppressed-tasks="Less" />
+=======
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="false">
       <option name="arguments" value="--no-color $FileName$" />
@@ -27,4 +30,5 @@
       <envs />
     </TaskOptions>
   </component>
+>>>>>>> 856e5189f3791d3689b46f97d3c9ea4eb5b01560
 </project>
