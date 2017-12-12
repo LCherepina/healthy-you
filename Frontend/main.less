@@ -1,15 +1,14 @@
 
-@mainColor: rgba(1, 1, 61, 0.97);
+@mainColor: rgba(0, 2, 61, 0.97);
 //there will be our less
 
 body{
-  background-color: gainsboro;
+  background-color: #e4e4e4;
 }
 
 body,html{
   height: 90%;
   width: 100%;
-  min-width: 600px;
 }
 
 .container{
@@ -29,7 +28,17 @@ body,html{
   background-color: orange;
 }
 
-.video-page {
-  background-color: aqua;
+.video-container {
+  //background-color: aqua;
   height: 100em;
+  padding-right: 0 !important;
+}
+
+.video-page{
+  //background-color: aliceblue;
+  height: 100%;
+  margin-top: 2em;
+  width: 100%;
+  background-image: radial-gradient(circle, rgb(253, 251, 255), @mainColor);
+  box-shadow: -1px 6px 10px 2px #575657;
 }
