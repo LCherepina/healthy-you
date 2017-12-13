@@ -14,14 +14,21 @@ body,html{
 .container{
   height: 100em;
   float: left;
+  margin-top: 6em;
 }
 
 .slider{
   width: 100%;
-  height: relative;
+  //height: auto;
   margin-top: 1em;
   padding-left: 8em;
   padding-right: 8em;
+}
+
+.slider-img{
+  display: inline-block;
+  width: 1050px;
+  max-height: 500px !important;
 }
 
 .carousel-inner > .item > img {
@@ -34,8 +41,13 @@ body,html{
   padding-top: 3em;
 }
 
+.info-food-main-text{
+  padding-top: 1em;
+}
+
 .video-container {
   //background-color: aqua;
+  margin-top: 5em;
   height: 100em;
   padding-right: 0 !important;
 }
@@ -56,6 +68,12 @@ body,html{
 
 .head-menu{
   padding-top: 1em;
+  height: 5em;
+  width: 100%;
+  box-shadow: -1px 6px 10px 2px #575657;
+  position: fixed;
+  z-index: 100;
+  background-color: #e4e4e4;
 }
 
 .go-to{
@@ -76,5 +94,35 @@ body,html{
   cursor: pointer;
 }
 
-.go-to-test{
+.food-info{
+  //background-color: aquamarine;
+  height: 40em; //relative;
+  border-right-color: rgba(96, 96, 96, 0.64);
+  border-right-style: double;
+  padding-top: 1em;
+
+}
+
+.sport-info{
+  //background-color: bisque;
+  height: 40em;//relative;
+}
+
+.info-food-caption{
+  font-weight: 700;
+  font-size: 17px;
+  display: block;
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  color: @mainColor;
+}
+
+.info-one-item{
+  padding: 1em;
+  width: 100%;
+  height: auto;
+  border: double;
+  border-color: #828182;
+  background-color: #f5f8f7;
 }
