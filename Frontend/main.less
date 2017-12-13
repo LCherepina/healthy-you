@@ -3,7 +3,7 @@
 //there will be our less
 
 body{
-  background-color: #e4e4e4;
+  background-color: whitesmoke;
 }
 
 body,html{
@@ -52,7 +52,7 @@ body,html{
   padding-right: 0 !important;
 }
 
-.video-frame{
+.shadow{
   box-shadow: -1px 6px 10px 2px #575657;
 }
 
@@ -63,24 +63,34 @@ body,html{
   width: 100%;
   padding-left: 10px;
   padding-top: 15px;
-  box-shadow: -1px 6px 10px 2px #575657;
 }
 
 .head-menu{
-  padding-top: 1em;
+ // padding-top: 1em;
   height: 5em;
   width: 100%;
-  box-shadow: -1px 6px 10px 2px #575657;
   position: fixed;
   z-index: 100;
   background-color: #e4e4e4;
+}
+
+.buttons{
+  float: right;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+.box-menu{
+  border-bottom-style: double;
+  border-bottom-color: #484748;
 }
 
 .go-to{
   color: black;
   cursor: pointer;
   letter-spacing: .01em;
-  text-shadow: .5px .5px #212022, .5px -.5px #212022, -.5px .5px #212022, -.5px -.5px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 19px;
+  text-shadow: 2px -2px #212022, 0px -1px #212022, 1px -2px #212022, 1px -1px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .go-to:hover{
@@ -89,33 +99,35 @@ body,html{
 }
 
 .go-to-menu{
-  margin-left: 3em;
-  margin-right: 3em;
   cursor: pointer;
 }
 
+.small-logo-image{
+  transform: scale(0.4);
+  margin-top: -3.7em;
+  margin-left: -10em;
+  text-shadow: .5px .5px #212022, .5px -.5px #212022, -.5px .5px #212022, -.5px -.5px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
 .food-info{
-  //background-color: aquamarine;
   height: 40em; //relative;
-  border-right-color: rgba(96, 96, 96, 0.64);
-  border-right-style: double;
   padding-top: 1em;
 
 }
 
 .sport-info{
-  //background-color: bisque;
   height: 40em;//relative;
 }
 
 .info-food-caption{
   font-weight: 700;
   font-size: 17px;
-  display: block;
   margin-bottom: 1.5em;
   margin-left: 1em;
   margin-top: 0.5em;
   color: @mainColor;
+  transform: scale(0.4);
+  margin-top: -3.7em;
 }
 
 .info-one-item{
