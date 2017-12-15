@@ -17,6 +17,7 @@
 // } );
 
 $(function(){
+
     $('.draggable').draggable({
         snap: ".droppable",
         snapMode: "inner",
@@ -28,9 +29,15 @@ $(function(){
         document.getElementById('cereals').style.display = 'inline-block';
     }*/
 
+    $('.cereals-kind').on('click', function () {
+        var element = document.getElementById("food-kind");
+        element.classList.add("hiddendiv");
+    });
 
-   $('.cereals-kind').onclick(function () {
-       document.getElementsByClassName('food-kind').style.display = 'none';
-       document.getElementById('cereals').style.display = 'inline-block';
-   }) ;
+
+/*
+   $('.cereals-kind').on('click', function () {
+       document.getElementsByClassName('food-kind').addClass('hiddendiv');
+       document.getElementById('cereals').removeClass('hiddendiv');
+   }) ;*/
 });
