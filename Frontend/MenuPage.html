@@ -21,7 +21,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
         $(function(){
-            $('#draggable').draggable({
+            //$('#draggable').draggable({
+            $('.draggable').draggable({
                 snap: ".droppable",
                 snapMode: "inner",
                 snapTolerance: 20
@@ -30,93 +31,80 @@
     </script>
 </head>
 <body>
-<div class="panel panel-default">
-    <!--&lt;!&ndash; Default panel contents &ndash;&gt;-->
-    <!--<div class="panel-heading">Заголовок панелі</div>-->
-    <!--<div class="panel-body">-->
-        <!--<p></p>-->
-    <!--</div>-->
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">Меню на тиждень</div>
+        <table class="table-bordered">
+            <!--<caption class="text-center">An example of a responsive table based on <a href="https://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>-->
+            <thead>
+            <tr>
+                <th class="col-md-1">/</th>
+                <th class="col-md-1">Понеділок</th>
+                <th class="col-md-1">Вівторок</th>
+                <th class="col-md-1">Середа</th>
+                <th class="col-md-1">Четвер</th>
+                <th class="col-md-1">П'ятниця</th>
+                <th class="col-md-1">Субота</th>
+                <th class="col-md-1">Неділя</th>
 
-    <!--&lt;!&ndash; Table &ndash;&gt;-->
-    <!--<table class="table"></table>-->
-    <h2>Меню на тиждень</h2>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="row-eq-height">Сніданок</td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+            </tr>
+            <tr>
+                <td>Обід</td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+            </tr>
+            <tr>
+                <td>Вечеря</td>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="table-responsive">
-                    <table summary="" class="table table-bordered table-hover">
-                        <!--<caption class="text-center">An example of a responsive table based on <a href="https://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>-->
-                        <thead>
-                        <tr>
-                            <th>/</th>
-                            <th>Понеділок</th>
-                            <th>Вівторок</th>
-                            <th>Середа</th>
-                            <th>Четвер</th>
-                            <th>П'ятниця</th>
-                            <th>Субота</th>
-                            <th>Неділя</th>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+            </tr>
+            <tr>
+                <td>Перекус</td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+                <td><span class="droppable"></span></td>
+            </tr>
 
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Сніданок</td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Обід</td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Вечеря</td>
-
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Перекус</td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                            <td><span class="droppable"></span></td>
-                        </tr>
-
-                        </tbody>
-                        <tfoot>
-                        <tr>
-                            <!--<td colspan="5" class="text-center">Data retrieved from <a href="http://www.infoplease.com/ipa/A0855611.html" target="_blank">infoplease</a> and <a href="http://www.worldometers.info/world-population/population-by-country/" target="_blank">worldometers</a>.</td>-->
-                        </tr>
-                        </tfoot>
-                    </table>
-                </div><!--end of .table-responsive-->
-            </div>
+            </tbody>
+            <!--<tfoot>-->
+            <!--<tr>-->
+                <!--&lt;!&ndash;<td colspan="5" class="text-center">Data retrieved from <a href="http://www.infoplease.com/ipa/A0855611.html" target="_blank">infoplease</a> and <a href="http://www.worldometers.info/world-population/population-by-country/" target="_blank">worldometers</a>.</td>&ndash;&gt;-->
+            <!--</tr>-->
+            <!--</tfoot>-->
+        </table>
+    </div>
+    <div class="panel panel-default">
+        <div class="draggable" >
+            <a class="btn btn-warning"> м'ясо </a>
         </div>
-        <div class="product-list" id="draggable">
-            <a class="btn btn-warning"> риба </a>
-        </div>
-        <div class="product-list" id="draggable">
+        <div class="draggable" id="product-list">
             <a class="btn btn-warning"> риба </a>
         </div>
     </div>
