@@ -17,10 +17,7 @@
 // } );
 
 $(function(){
-<<<<<<< HEAD
 
-=======
->>>>>>> 2cbdcd962c40bc23714da9b39fad3678981c9048
     $('.draggable').draggable({
         snap: ".droppable",
         snapMode: "inner",
