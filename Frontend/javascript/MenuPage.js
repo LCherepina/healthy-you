@@ -15,3 +15,11 @@
 //  $( function() {
 //     $( "#draggable" ).draggable();
 // } );
+
+$(function(){
+    $('#draggable').draggable({
+        snap: ".droppable",
+        snapMode: "inner",
+        snapTolerance: 20
+    });
+});
