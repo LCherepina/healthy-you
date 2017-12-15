@@ -36,7 +36,7 @@ $(function(){
         document.getElementById('cereals').style.display = 'inline-block';
     }*/
 
-    $("#back").on('click', function(){
+    /*$("#back").on('click', function(){
        $(".food-kind").show();
        $(".food").hide();
        $("#back").hide();
@@ -70,7 +70,7 @@ $(function(){
         $(".food-kind").hide();
         $("#fruits").show();
         $("#back").show();
-    });
+    });*/
 
 
 /*
