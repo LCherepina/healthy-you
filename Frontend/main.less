@@ -1,28 +1,36 @@
 
 @mainColor: rgba(0, 2, 61, 0.97);
+@myWhite: #eef1f8;
 //there will be our less
 
 body{
-  background-color: whitesmoke;
+  background-color: #74708b;
+  overflow-x: hidden;
+  min-width: 650px;
 }
 
 body,html{
   height: 90%;
   width: 100%;
+  min-width: 650px;
 }
 
 .container{
   height: 100em;
-  float: left;
-  margin-top: 6em;
+  padding-top: 7em;
+  width: 100%;
+  padding-right: 16em;
+  float:left;
+  padding-left: 0;
 }
 
 .slider{
   width: 100%;
-  //height: auto;
+  height: auto;
   margin-top: 1em;
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 3em;
+  padding-right: 3em;
+  //background-color: @mainColor;
 }
 
 .slider-img{
@@ -35,21 +43,26 @@ body,html{
   margin: 0 auto;
 }
 
-.info{
-  background-color: orange;
+.info_cont{
   width: 100%;
-  padding-top: 3em;
+  display:table;
 }
 
 .info-food-main-text{
   padding-top: 1em;
 }
 
+.info-food-img{
+  height: 100%;
+  width: 100%;
+  padding: 3em;
+}
+
 .video-container {
-  //background-color: aqua;
   margin-top: 5em;
-  height: 100em;
+  position: fixed;
   padding-right: 0 !important;
+  right: 0;
 }
 
 .shadow{
@@ -57,12 +70,14 @@ body,html{
 }
 
 .video-page{
-  background-color: #f5f8f7;
-  height: 100%;
-  margin-top: 2em;
-  width: 100%;
+  background-color: @myWhite;
+  height: 47.5em;
+  margin-top: 1em;
+  width: 16em;
   padding-left: 10px;
   padding-top: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .head-menu{
@@ -71,7 +86,8 @@ body,html{
   width: 100%;
   position: fixed;
   z-index: 100;
-  background-color: #e4e4e4;
+  background-color: @myWhite;
+  min-width: 650px;
 }
 
 .buttons{
@@ -95,28 +111,26 @@ body,html{
 
 .go-to:hover{
   text-decoration: underline;
-  color: white;
+  color: @myWhite;
 }
 
 .go-to-menu{
   cursor: pointer;
 }
 
-.small-logo-image{
-  transform: scale(0.4);
-  margin-top: -3.7em;
-  margin-left: -10em;
-  text-shadow: .5px .5px #212022, .5px -.5px #212022, -.5px .5px #212022, -.5px -.5px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
+.small-logo{
+  width: auto;
+  height: inherit;
+  margin-left: 2em;
 }
 
-.food-info{
-  height: 40em; //relative;
+.info{
+  height: auto;
   padding-top: 1em;
-
-}
-
-.sport-info{
-  height: 40em;//relative;
+  padding-right: 1em;
+  padding-left: 1em;
+  width: 48%;
+  display: table-cell;
 }
 
 .info-food-caption{
@@ -137,4 +151,18 @@ body,html{
   border: double;
   border-color: #828182;
   background-color: #f5f8f7;
+  margin-top: 3em;
+}
+
+@media	(max-width:	800px)	{
+
+  .info{
+    width: 100%;
+    display: inline-block;
+  }
+
+  .info_cont{
+    display: inline-block;
+  }
+
 }
