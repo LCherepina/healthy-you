@@ -22,15 +22,29 @@
         </entry>
       </file>
 <<<<<<< HEAD
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Frontend/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NAL.html" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/index.html">
 =======
       <file leaf-file-name="NAL.html" pinned="false" current-in-tab="true">
+>>>>>>> 68230bd99c9ccdfccda7a69350f440fe343fa408
         <entry file="file://$PROJECT_DIR$/Frontend/NAL.html">
 >>>>>>> 858e345ee0a6d80b8b609e7b5969199211bebdd5
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -155,20 +169,28 @@
       <option name="presentableId" value="Default" />
       <updated>1513103611084</updated>
 <<<<<<< HEAD
+      <workItem from="1513103612322" duration="2697000" />
+=======
+<<<<<<< HEAD
       <workItem from="1513103612322" duration="684000" />
       <workItem from="1513106920778" duration="365000" />
 =======
       <workItem from="1513103612322" duration="2296000" />
 >>>>>>> 858e345ee0a6d80b8b609e7b5969199211bebdd5
+>>>>>>> 68230bd99c9ccdfccda7a69350f440fe343fa408
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2697000" />
+=======
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1049000" />
 =======
     <option name="totallyTimeSpent" value="2296000" />
 >>>>>>> 858e345ee0a6d80b8b609e7b5969199211bebdd5
+>>>>>>> 68230bd99c9ccdfccda7a69350f440fe343fa408
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -203,11 +225,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Frontend/NAL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/images/logo1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Frontend/index.html">
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Frontend/images/logo1.png">
       <provider selected="true" editor-type-id="images">
@@ -226,9 +259,10 @@
 =======
     <entry file="file://$PROJECT_DIR$/Frontend/NAL.html">
 >>>>>>> 858e345ee0a6d80b8b609e7b5969199211bebdd5
+>>>>>>> 68230bd99c9ccdfccda7a69350f440fe343fa408
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="250">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
