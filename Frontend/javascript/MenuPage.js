@@ -24,6 +24,13 @@ $(function(){
         snapTolerance: 20
     });
 
+    $( ".selector" ).draggable({
+        stop: function(event, ui) {
+            var x = ui.instance.element.position();
+            $("#image1").css({"position":"fixed","left":x.left,"top":x.top});
+        }
+    });
+
     /*$('.cereals-kind').onclick = function () {
         document.getElementsByClassName('food-kind').style.display = 'none';
         document.getElementById('cereals').style.display = 'inline-block';
