@@ -17,7 +17,7 @@
 // } );
 
 $(function(){
-    $('#draggable').draggable({
+    $('.draggable').draggable({
         snap: ".droppable",
         snapMode: "inner",
         snapTolerance: 20
