@@ -19,10 +19,28 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<<<<<<< HEAD
+=======
+    <script>
+/*<<<<<<< HEAD
+        $(function(){
+            //$('#draggable').draggable({
+            $('.draggable').draggable({
+=======
+       /*$(function(){
+            $('#draggable').draggable({
+>>>>>>> 7187efaa10d4eca4c8dadccae84963bd4eb60f87
+                snap: ".droppable",
+                snapMode: "inner",
+                snapTolerance: 20
+            });
+        });*/
+    </script>
+>>>>>>> 8a72b72bf19bc79b17e6f4ee628db2c4efbf5968
 </head>
 <body>
-<div class="container">
-    <div class="panel panel-default">
+<div class="menu-container">
+    <div class="menu-panel panel panel-default">
         <div class="panel-heading">Меню на тиждень</div>
         <table class="table">
             <!--<caption class="text-center">An example of a responsive table based on <a href="https://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>-->
@@ -83,16 +101,39 @@
             </tr>
 
             </tbody>
+<<<<<<< HEAD
 
+=======
+            <!--<tfoot>-->
+            <!--<tr>-->
+            <!--&lt;!&ndash;<td colspan="5" class="text-center">Data retrieved from <a href="http://www.infoplease.com/ipa/A0855611.html" target="_blank">infoplease</a> and <a href="http://www.worldometers.info/world-population/population-by-country/" target="_blank">worldometers</a>.</td>&ndash;&gt;-->
+            <!--</tr>-->
+            <!--</tfoot>-->
+>>>>>>> 8a72b72bf19bc79b17e6f4ee628db2c4efbf5968
         </table>
     </div>
-    <div class="panel panel-default">
-        <div class="draggable" >
-            <a class="btn btn-warning"> м'ясо </a>
+    <div class="food-panel panel panel-default">
+        <div class="food-kind cereals-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label ">Крупи</span>
         </div>
-        <div class="draggable" id="product-list">
-            <a class="btn btn-warning"> риба </a>
+        <div class="food-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">Молочні продукри</span>
         </div>
+        <div class="food-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">М'ясо / Риба</span>
+        </div>
+        <div class="food-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">Овочі</span>
+        </div>
+        <div class="food-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">Фрукти</span>
+        </div>
+<<<<<<< HEAD
     </div>
 
 
@@ -101,9 +142,32 @@
 
 =======
     <script	type="text/javascript"		src="www/assets/js/main.js">	</script>
+=======
+>>>>>>> 8a72b72bf19bc79b17e6f4ee628db2c4efbf5968
 
+        <div id="cereals" style="display: none">
+            <div class="draggable">
+                <a class="btn btn-warning">Гречана крупа</a>
+            </div>
+            <div class="draggable">
+                <a class="btn btn-warning">Рис</a>
+            </div>
+        </div>
+        <div class="diary" style="display: none">
+            <div class="draggable">
+                <a class="btn btn-warning">Молоко</a>
+            </div>
+            <div class="draggable">
+                <a class="btn btn-warning">Сир</a>
+            </div>
+        </div>
+    </div>
     <!--<p class="p">Demo by George Martsoukos. <a href="http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions" target="_blank">See article</a>.</p>-->
 >>>>>>> f2354d3de579c3482713de20cad9db217bd02e4d
 </div>
+
+<script	type="text/javascript" src="javascript/MenuPage.js">	</script>
+<script	type="text/javascript"		src="www/assets/js/main.js">	</script>
+
 </body>
 </html>
