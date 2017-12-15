@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Title</title>
     <title>Healty you</title>
 
     <!-- Bootsrap CSS -->
@@ -13,13 +14,6 @@
     <!-- LESS JavaScript компілятор -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 
-    <!-- jQuery JavaScript -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
-
-    <!--Bootsrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
 </head>
 <body>
 <div class="head-menu shadow">
@@ -29,7 +23,7 @@
             <a class="go-to-menu go-to" onclick="window.location.href=('MenuPage.html')">Перейти до створення меню</a>
         </div>
         <div class="box-test">
-            <a class="go-to-test go-to">Перейти до тестів</a>
+            <a class="go-to-test go-to" onclick="window.location.href=('options.html')">Перейти до тестів</a>
         </div>
     </div>
 </div>
@@ -45,6 +39,10 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
+                    <img src="images/people-run.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/man-run.jpg">
                     <img class="slider-img" src="images/people-run.jpg">
                 </div>
                 <div class="item">
@@ -63,7 +61,9 @@
             </a>
         </div>
     </div>
-    <div class="info_cont">
+</div>
+
+<div class="info_cont">
         <div id="food-info" class="info">
             <div class="info-one-item">
                 <span class="info-food-caption">Здорове харчування - з чого почати?<br></span>
@@ -282,9 +282,8 @@
     </div>
 </div>
 <script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
-<script	type="text/javascript" src="src/info/infoPage.js">	</script>
-<!--<script	type="text/javascript"		src="assets/js/main.js">	</script>-->
-<script	type="text/javascript"		src="www/assets/js/main.js">	</script>
+
+<!--<script	type="text/javascript"		src="www/assets/js/main.js">	</script>-->
 
 </body>
 </html>

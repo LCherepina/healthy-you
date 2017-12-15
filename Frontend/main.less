@@ -17,15 +17,18 @@ body,html{
 
 .container{
   height: 100em;
+  float: left;
   padding-top: 7em;
   width: 100%;
   padding-right: 16em;
-  float:left;
   padding-left: 0;
 }
 
 .slider{
   width: 100%;
+  margin-top: 1em;
+  padding-left: 8em;
+  padding-right: 8em;
   height: auto;
   margin-top: 1em;
   padding-left: 3em;
@@ -41,6 +44,17 @@ body,html{
 
 .carousel-inner > .item > img {
   margin: 0 auto;
+}
+
+.info{
+  width: 100%;
+  padding-top: 3em;
+}
+
+.video-container {
+  height: 100em;
+  padding-right: 0 !important;
+  position: fixed;
 }
 
 .info_cont{
@@ -70,6 +84,17 @@ body,html{
 }
 
 .video-page{
+  background-color: #f5f8f7;
+  height: 100%;
+  margin-top: 2em;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 15px;
+  box-shadow: -1px 6px 10px 2px #575657;
+}
+
+.head-menu{
+  padding-top: 1em;
   background-color: @myWhite;
   height: 47.5em;
   margin-top: 1em;
@@ -105,12 +130,23 @@ body,html{
   color: black;
   cursor: pointer;
   letter-spacing: .01em;
+  //text-shadow: .5px .5px #212022, .5px -.5px #212022, -.5px .5px #212022, -.5px -.5px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
   font-size: 19px;
   text-shadow: 2px -2px #212022, 0px -1px #212022, 1px -2px #212022, 1px -1px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .go-to:hover{
   text-decoration: underline;
+  color: white;
+}
+
+.go-to-menu{
+  margin-left: 3em;
+  margin-right: 3em;
+  cursor: pointer;
+}
+
+.go-to-test{
   color: @myWhite;
 }
 
@@ -235,6 +271,3 @@ body,html{
   border-right: 1px solid #ddd;
 }
 
-.menu-container{
-
-}
