@@ -29,9 +29,40 @@ $(function(){
         document.getElementById('cereals').style.display = 'inline-block';
     }*/
 
+    $("#back").on('click', function(){
+       $(".food-kind").show();
+       $(".food").hide();
+       $("#back").hide();
+    });
+
     $('.cereals-kind').on('click', function () {
-        var element = document.getElementById("food-kind");
-        element.classList.add("hiddendiv");
+        $(".food-kind").hide();
+        $("#cereals").show();
+        $("#back").show();
+    });
+
+    $('.dairy-kind').on('click', function () {
+        $(".food-kind").hide();
+        $("#diary").show();
+        $("#back").show();
+    });
+
+    $('.meat-kind').on('click', function () {
+        $(".food-kind").hide();
+        $("#meat").show();
+        $("#back").show();
+    });
+
+    $('.vega-kind').on('click', function () {
+        $(".food-kind").hide();
+        $("#vega").show();
+        $("#back").show();
+    });
+
+    $('.fruits-kind').on('click', function () {
+        $(".food-kind").hide();
+        $("#fruits").show();
+        $("#back").show();
     });
 
 
