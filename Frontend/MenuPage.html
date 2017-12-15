@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- LESS основний файл -->
+    <link rel="stylesheet/less" type="text/css" href="main.less" />
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+    <!-- jQuery JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+
+    <!--Bootsrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script>
+/*<<<<<<< HEAD
+        $(function(){
+            //$('#draggable').draggable({
+            $('.draggable').draggable({
+=======
+       /*$(function(){
+            $('#draggable').draggable({
+>>>>>>> 7187efaa10d4eca4c8dadccae84963bd4eb60f87
+                snap: ".droppable",
+                snapMode: "inner",
+                snapTolerance: 20
+            });
+        });*/
+    </script>
+
+
+</head>
+<body>
+<div class="menu-container">
+    <div class="menu-panel panel panel-default">
+        <div class="panel-heading">Меню на тиждень</div>
+        <table class="table">
+            <!--<caption class="text-center">An example of a responsive table based on <a href="https://getbootstrap.com/css/#tables-responsive" target="_blank">Bootstrap</a>:</caption>-->
+            <thead>
+            <tr>
+                <th class="col-md-1">/</th>
+                <th class="col-md-1">Понеділок</th>
+                <th class="col-md-1">Вівторок</th>
+                <th class="col-md-1">Середа</th>
+                <th class="col-md-1">Четвер</th>
+                <th class="col-md-1">П'ятниця</th>
+                <th class="col-md-1">Субота</th>
+                <th class="col-md-1">Неділя</th>
+
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr>
+                <td >Сніданок</td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Обід</td>
+
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="row-eq-height">Вечеря</td>
+
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="row-eq-height">Перекус</td>
+
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+                <td class="row-eq-height">
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                    <div class="droppable hor-row"></div>
+                </td>
+            </tr>
+
+            </tbody>
+
+
+            <!--<tfoot>-->
+            <!--<tr>-->
+            <!--&lt;!&ndash;<td colspan="5" class="text-center">Data retrieved from <a href="http://www.infoplease.com/ipa/A0855611.html" target="_blank">infoplease</a> and <a href="http://www.worldometers.info/world-population/population-by-country/" target="_blank">worldometers</a>.</td>&ndash;&gt;-->
+            <!--</tr>-->
+            <!--</tfoot>-->
+
+
+        </table>
+    </div>
+
+    <div class="food-panel panel panel-default">
+        <div class="food-kind cereals-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label ">Крупи</span>
+        </div>
+        <div class="food-kind dairy-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">Молочні продукри</span>
+        </div>
+        <div class="food-kind meat-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">М'ясо / Риба</span>
+        </div>
+        <div class="food-kind vega-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">Овочі</span>
+        </div>
+        <div class="food-kind fruits-kind">
+            <img style="transform: scale(0.45)" src="images/circle.png">
+            <span class="food-kind-label">Фрукти</span>
+        </div>
+
+        <img id="back" src="images/back.png" class="hiddendiv">
+        <div id="cereals" class="food hiddendiv">
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Гречана крупа</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Рис</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Жито</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Пшоно</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Ячнева крупа</a>
+            </div>
+<<<<<<< HEAD
+            <div class="draggable">
+                <a class="btn btn-sm btn-warning">Вівсяна</a>
+=======
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Вівсянв</a>
+>>>>>>> 4023488d5edd314095a563195ace05bdccb0c85e
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Кукурудзяна</a>
+            </div>
+        </div>
+
+        <div id="diary" class="food hiddendiv">
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Молоко</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Сир</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Кефір</a>
+            </div>
+
+        </div>
+
+        <div id="meat" class="food hiddendiv">
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Курка</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Телятина</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Свинина(дієтична)</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Качка</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Кролик</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Форель</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Сьомга</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Скумбрія</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Судак</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Треска</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Тунець</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Камбала</a>
+            </div>
+        </div>
+
+        <div id="vega" class="food hiddendiv">
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Картопля</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Огірок</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Помідор</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Морква</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Цибуля</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Капуста</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Листя салату</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Кукурудза</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Горох</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Гарбуз</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Буряк</a>
+            </div>
+
+        </div>
+
+        <div id="fruits" class="food hiddendiv">
+            <div class="draggable celector">
+                <a class="btn btn-sm btn-warning">Банан</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Яблуко</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Полуниця</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Вишня</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Черешня</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Абрикос</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Диня</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Ківі</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Клюква</a>
+            </div>
+            <div class="draggable celector">
+                <a class="btn btn-sm  btn-warning">Персик</a>
+            </div>
+        </div>
+    </div>
+
+    <!--<p class="p">Demo by George Martsoukos. <a href="http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions" target="_blank">See article</a>.</p>-->
+
+
+
+
+</div>
+    <!--<p class="p">Demo by George Martsoukos. <a href="http://www.sitepoint.com/responsive-data-tables-comprehensive-list-solutions" target="_blank">See article</a>.</p>-->
+
+
+<script	type="text/javascript" src="javascript/MenuPage.js">	</script>
+<script	type="text/javascript"		src="www/assets/js/main.js">	</script>
+
+</body>
+</html>
