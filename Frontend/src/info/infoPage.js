@@ -1,32 +1,16 @@
 
-$(function(){
 
-});
-
-// Activate Carousel
-$("#myCarousel").carousel();
-
-// Enable Carousel Indicators
-$(".item").click(function(){
-    $("#myCarousel").carousel(1);
-});
-
-$(".left").click(function(){
-    $("#myCarousel").carousel("prev");
-});
-
-$(".right").click(function(){
-    $("#myCarousel").carousel("next");
-});
+//var Templates = require('.../templates');
 
 var $food_list = $("#food-info");
 var $sport_list = $("#sport-info");
-var info_food_list = require('infoFoodList.ejs');
-var Templates = require('./templates');
+
+var info_food_list = require('../infoFoodList');
+
 
 function showFoodInfo(list) {
     //Очищаємо старі піци в кошику
-    $food_list.html("");
+    //$food_list.html("");
 
     //Онволення однієї піци
     function showOneBox(info_box) {
@@ -60,3 +44,7 @@ function showSportInfo(list) {
 function initialiseMenu() {
     showFoodInfo(info_food_list);
 }
+
+
+
+exports.initialiseMenu = initialiseMenu;
