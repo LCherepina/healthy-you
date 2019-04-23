@@ -78,3 +78,38 @@ input:checked + label {
 input:checked + label::before {
     background-color: #fff;
 }
+.results-panel{
+    margin-top: 10em;
+    text-align: center;
+    padding: 4em;
+    height: auto;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #aeb2ce;
+    border-style: double;
+    border-color: #74708b;
+    color: darkblue;
+}
+
+.results{
+    font-weight: 700;
+    font-size: large;
+}
+.go-to{
+    margin: 3em;
+    color: black;
+    cursor: pointer;
+    letter-spacing: .01em;
+    font-size: 19px;
+    text-shadow: 2px -2px #212022, 0px -1px #212022, 1px -2px #212022, 1px -1px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.go-to:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.go-to-menu{
+    cursor: pointer;
+}

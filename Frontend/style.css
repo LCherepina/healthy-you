@@ -1,4 +1,6 @@
-
+body{
+    background: radial-gradient(#fff, #dac4cd);
+}
 .block_calculator-imt,.block_calculator-weight {
     width: 300px;
     padding: 15px;
@@ -40,6 +42,10 @@ button {
     outline: inherit;
     margin-right: 10px;
     cursor: pointer;
+}
+button.next{
+    width: 100px;
+    margin-left: 47%;
 }
 .buttons_block {
     overflow: hidden;
@@ -106,6 +112,22 @@ body {
 }
 .first_number_imt, .second_number_imt, .third_number_imt, .forth_number, .weight, .height, .age, .hand{
     margin: 3%;
+}
+.go-to{
+    color: black;
+    cursor: pointer;
+    letter-spacing: .01em;
+    font-size: 19px;
+    text-shadow: 2px -2px #212022, 0px -1px #212022, 1px -2px #212022, 1px -1px #212022, 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.go-to:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.go-to-menu{
+    cursor: pointer;
 }
 
 /*quiz*/
